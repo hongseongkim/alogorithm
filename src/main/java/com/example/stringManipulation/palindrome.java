@@ -1,7 +1,8 @@
-package com.example;
+package com.example.stringManipulation;
 
 public class palindrome {
 
+    // 주어진 문자열이 팰린드롬인지 확인하라 대소문자 구분 x 영숫자만을 대상으로 한다 .
     public static void main(String[] args) {
 
         String s = "Do geese see God?";
