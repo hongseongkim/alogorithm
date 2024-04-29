@@ -40,8 +40,7 @@ public class palindrome {
 
 
     static boolean isPalindrome2(String s) {
-        // StringBuilder 이용 문자열을 뒤집어서 바로 비교 StringBuilder는 스레드에 안전하지않음.
-        // 코드가 간결해졌지만 클래스를 직접 비교하기 때문에 isPalindrome1 보다 느림
+        // StringBuilder 이용 문자열을 뒤집어서 바로 비교
 
 
         // 유요한 문자만 정규식으로 추출후 소문자로 변경시키기
@@ -49,6 +48,8 @@ public class palindrome {
 
         String s_reverse = new StringBuffer(s_filtered).reverse().toString();
 
+        // StringBuilder는 스레드에 안전하지않음.
+        // 코드가 간결해졌지만 클래스를 직접 비교하기 때문에 isPalindrome1 보다 느림
         return s_filtered.equals(s_reverse);
     }
 
