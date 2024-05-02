@@ -23,6 +23,5 @@ public class Solution18 {
         System.arraycopy(num_list, n, answer, 0, num_list.length - n);
         System.arraycopy(num_list, 0, answer, num_list.length - n, n);
         return answer;
-
     }
 }

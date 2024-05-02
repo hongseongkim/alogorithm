@@ -1,10 +1,10 @@
-package com.example.stringManipulation;
+package com.example.alogorithmInterview.stringManipulation;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class reorderLogFiles {
+public class ReorderLogFiles {
 /*
 *리트코드 937 난이도1
 * 로그의 가장 앞부분은 식별자로서 순서에 영향을 끼치지않음

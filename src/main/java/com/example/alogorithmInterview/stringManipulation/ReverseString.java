@@ -1,6 +1,6 @@
-package com.example.stringManipulation;
+package com.example.alogorithmInterview.stringManipulation;
 
-public class reverseString {
+public class ReverseString {
     //리트코드 344문제
     //문자열을 뒤집는 함수를 작성 , 입력값은 문자 배열이며 리턴없이 입력 배열내부를 직접 조작
     // 입력 ["r","a","c","e","c","a","r"]
