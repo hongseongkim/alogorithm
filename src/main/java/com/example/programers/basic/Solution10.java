@@ -8,8 +8,10 @@ class Solution10 {
 //            return IntStream.of(num_list).reduce((a, b)-> a*b).orElse(0);
 //        }else{
 //
-////        return IntStream.of(num_list).reduce(Integer::sum).orElse(0);
 //        return IntStream.of(num_list).sum();
+////        return IntStream.of(num_list).reduce(Integer::sum).orElse(0);
+
+
 //        }
 
          IntStream s =IntStream.of(num_list);
